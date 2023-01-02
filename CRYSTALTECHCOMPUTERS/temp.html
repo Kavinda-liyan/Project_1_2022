@@ -1,0 +1,45 @@
+<!-- <?php
+
+// Instantiate DB & connect 
+
+if(isset($_GET['name']))
+{
+
+   $name = $_GET['name'];
+
+   $search = "SELECT * FROM itemproducts WHERE names LIKE '%$name%' OR brand LIKE '%$name%'";
+
+   $squery = mysqli_query($dbConnection,$search);
+
+   $book_rows= mysqli_num_rows($squery);
+
+   if($book_rows > 0)
+   {
+
+    echo '<center><div class="d-flex justify-content-center" id="bookcard">';
+   
+      //fetch cover images from database  
+      while ($row = mysqli_fetch_array($squery)) 
+      {
+  
+                    echo '<div class="card">
+                            <img src="http://localhost/ctcadmin/images/news/' . $row['cover'] . '" alt="' . $row['names'] . '" class="card-img-top" height="250"/>
+                            <div class="card-body">
+                              <h5 class="card-title">' . $row['names'] . '</h5>
+                              <p class="card-text">' . substr($row['sdiscription'], 0, 20) . '</p>
+                              <a href="./productdetail.php?id=' . $row['item_id'] . '" class="btn btn-primary">View</a>
+                            </div>
+                          </div>';
+                   
+      
+   } 
+   echo'</center></div>';
+  
+   }
+   else
+   {
+       echo ' <center><font color="#ffff99"><h3><i class="fa fa-certificate"></i> &nbsp;Product Not Found!</h3></font></center>';
+   }
+}
+
+?> -->

@@ -1,0 +1,118 @@
+.about h1{
+  text-align: center;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+.text{
+  
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  
+}
+.text h2{
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.vl {
+  
+  border-left: 6px solid rgb(255, 0, 0);
+  height:3.5rem;
+}
+.details{
+  
+  
+  color: aliceblue;
+}
+.locations{
+  background-color: rgba(0, 0, 0, 0.206);
+  
+  border-left: rgba(255, 0, 0, 0) 1rem solid;
+  border-radius: 0;
+  padding: 1rem;
+  
+}
+.locations p{
+  font-weight: bold;
+}
+.comments-box{
+top:50%;
+
+position: absolute;
+transform: translate(-50%,-50%);
+width: 50%;
+}
+.commentx{
+
+
+float: left;
+
+border-radius: 5px;
+padding-left: 40px;
+padding-right: 30px;
+padding-top: 10px;
+
+}
+.comment h4,.comment span,.darker h4,.darker span{
+display: inline;
+}
+
+.comment p,.comment span,.darker p,.darker span{
+color: rgb(184, 183, 183);
+}
+
+h1,h4{
+color: white;
+font-weight: bold;
+}
+label{
+color: rgb(212, 208, 208);
+}
+
+#align-form{
+margin-top: 20px;
+}
+.form-group p a{
+color: white;
+}
+
+#checkbx{
+background-color: black;
+}
+
+#darker img{
+margin-right: 15px;
+position: static;
+}
+
+.form-group input,.form-group textarea{
+background-color: rgba(0, 0, 0, 0);
+border: 1px solid rgba(255, 255, 255, 0);
+border-radius: 12px;
+}
+
+form{
+border: 1px solid rgba(16, 46, 46, 0);
+background-color: rgba(0, 0, 0, 0);
+border-radius: 5px;
+padding: 20px;}
+
+/* navstyle hover */
+.nav-item a span {
+  transition: 0.5s ease-out;
+}
+.nav-item a:hover span:nth-child(1) {
+  margin-right: 2px;
+}
+.nav-item a:hover span:nth-child(1):after {
+  content: "";
+}
+.nav-item a:hover span:nth-child(2) {
+  margin-left: 10px;
+}
+.nav-item a:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 90, 90), 0 0 40px rgb(255, 116, 116);
+}

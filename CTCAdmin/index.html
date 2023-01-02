@@ -1,0 +1,42 @@
+
+
+<html>
+<head>
+<title>Admin Login Form</title>
+     <link rel="stylesheet" type="text/css" href="Css/Style.css">
+     <link href="Images/loginlogo.png" rel="icon">
+    <!----boostrap---->
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="lib/jquery/jquery.min.js"></script>
+
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!----fontawesome---->
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+
+</head>
+<body>
+
+    
+     <div class="loginbox">
+    <img src="Images/loginlogo.png" id="login" class="avatar" width=>
+         <h1 style="font-weight: 900;">CTC<span style="color: aliceblue;"> Admin Login</span></h1>
+         <form action="validationadmin.php" method="post">
+             <p>Username</p>
+             <input type="text" name="username" placeholder="Enter Username" required>
+             <p>Password</p>
+             <input type="password" name="password" placeholder="Enter Password" required>
+             
+             
+             <input type="submit" name="logbtn" value="Login">
+    
+             
+          <a href="Html/changepassword.php">Change password</a><br>
+                        
+                    
+         </form>
+    </div>  
+</body>
+</html>

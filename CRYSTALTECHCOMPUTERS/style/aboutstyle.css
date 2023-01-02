@@ -1,0 +1,96 @@
+
+.containermy img{
+  height: 200px;
+  position: relative;
+  margin: auto;
+  align-items: center;
+ 
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.containermy{
+
+  height: auto;
+  background-image: url(../Images/headerbg.png);
+  background-position: unset;
+  position: relative;
+  margin: auto;
+  background-size: cover;
+}
+
+/*This @meadia for the Header */
+@media (min-width: 1200px) {
+    .containermy img {
+        height: 200px;
+      }
+    }
+    
+    @media (max-width: 1023px) {
+      .containermy img {
+        height: 150px;
+      }
+    }
+      @media (max-width: 719px) {
+        .containermy img {
+          height: 100px;
+        }
+      }
+        @media (max-width: 389px) {
+          .containermy img {
+            height: 80px;
+          }
+    }
+    @media  (min-width: 375px){
+      .resfont{
+        font-size:10px ;
+  
+      }
+      
+    }
+   /*this @media fo the community logo*/
+  @media (min-width: 1200px) {
+      .logo {
+        height: 100px;
+      }
+    }
+    /* If the screen size is smaller than 1200px, set the font-size to 80px */
+    
+   
+   .abouttxtbox h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: beige;
+   }
+   .hovef :hover{
+    color: red;
+   }
+
+   /* Navstyle */
+   .nav-item{
+   
+    
+    margin-right: 10px;
+    
+    
+    
+   }
+
+   /* navstyle hover */
+   .nav-item a span {
+    transition: 0.5s ease-out;
+  }
+  .nav-item a:hover span:nth-child(1) {
+    margin-right: 2px;
+  }
+  .nav-item a:hover span:nth-child(1):after {
+    content: "";
+  }
+  .nav-item a:hover span:nth-child(2) {
+    margin-left: 10px;
+  }
+  .nav-item a:hover span {
+    color: #fff;
+    text-shadow: 0 0 10px rgb(255, 0, 0), 0 0 20px rgb(255, 90, 90), 0 0 40px rgb(255, 116, 116);
+  }

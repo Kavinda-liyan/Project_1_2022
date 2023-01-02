@@ -1,0 +1,82 @@
+
+.containermy img{
+  height: 200px;
+  position: relative;
+  margin: auto;
+  align-items: center;
+ 
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.containermy{
+
+  height: auto;
+  background-image: url(../Images/headerbg.png);
+  background-position: center;
+  position: relative;
+  margin: 5px;
+  border-radius: 50px;
+}
+.boxnav{
+  margin: 5px;
+  border-radius: 25px;
+  
+}
+/*This @meadia for the Header */
+@media (min-width: 1200px) {
+    .containermy img {
+        height: 200px;
+      }
+    }
+    
+    @media (max-width: 1023px) {
+      .containermy img {
+        height: 150px;
+      }
+      @media (max-width: 719px) {
+        .containermy img {
+          height: 100px;
+        }
+        @media (max-width: 389px) {
+          .containermy img {
+            height: 80px;
+          }
+    }
+    @media  {min-width: 375px;
+      .resfont{
+        font-size:10px ;
+  
+      }
+      
+    }
+   /*this @media fo the community logo*/
+  @media (min-width: 1200px) {
+      .logo {
+        height: 100px;
+      }
+    }
+    /* If the screen size is smaller than 1200px, set the font-size to 80px */
+    @media (max-width: 1199.98px) {
+      .logo {
+          height: 80px;
+      }
+    }
+   .containermy{
+    
+    height: auto;
+    background-image: url(../Images/headerbg.png);
+    background-position: center;
+    position: relative;
+    margin: 5px;
+    border-radius: 50px;
+   }
+   .abouttxtbox h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: beige;
+   }
+ h3{
+  color: aqua;
+ }

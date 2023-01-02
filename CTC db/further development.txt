@@ -1,0 +1,9 @@
+CTC Community -
+Page where user is allowed to create and promote advertisement
+
+CART Remove From Selected Quantity-
+
+Removing the desired amount from a selected content without removing the cart completely.
+
+Star review-
+Updating the user star review system

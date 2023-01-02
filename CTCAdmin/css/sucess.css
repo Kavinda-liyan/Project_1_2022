@@ -1,0 +1,19 @@
+body{
+ 
+    background-color: aqua;
+    background-image: url(../Images/loginbg.jpg);
+    background-position: center;
+    
+    background-size: cover;
+ 
+  
+}
+.text-wrapper{
+    text-align: center;
+    margin-top: 25%;
+    font-size: 70px;
+    color: aliceblue;
+    text-shadow: 2px black; 
+    text-decoration: double;
+    text-overflow: ellipsis;
+}

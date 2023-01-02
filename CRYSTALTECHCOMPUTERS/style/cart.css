@@ -1,0 +1,37 @@
+.cart h1{
+    text-align: center;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.a{
+    color: aliceblue;
+    font-weight: bold;
+}
+.table{
+    color: aliceblue;
+}
+.card{
+    
+    background-color: rgba(255, 255, 255, 0.877);
+}
+.card a{
+   
+}
+.buttons{
+    background-color: rgba(165, 42, 42, 0.068);
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border-color: rgb(255, 0, 0);
+    transition: 0.6s;
+    
+}
+.buttons :hover{
+    background-color: rgba(165, 42, 42, 0.822);
+    color: brown;
+    border-color: rgb(25, 0, 255);
+
+}

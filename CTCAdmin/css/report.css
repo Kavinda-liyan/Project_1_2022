@@ -1,0 +1,45 @@
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Ruda:400,700,900);
+h1
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: ruda;
+    color: #39ac73;
+    text-transform: uppercase;
+}
+h1 span {
+    color: #009999;
+}
+
+h2,h3
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: ruda;
+    color: #333333;
+}
+
+h4
+{
+    font-weight: 900;
+    color: #333333;
+    font-size: 24px;
+
+}
+p
+{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: ruda;
+}
+thead
+{
+    font-weight: bold;
+    background-color: beige;
+}
+
+  
+  #issue_data td {
+    border: 1px solid #a6a6a6;
+  }
